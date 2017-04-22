@@ -1,0 +1,1 @@
+// define a gridx=[-1:0.1:1];y=x; // surface computation[X,Y]=meshgrid(x,y);Z=X.^2-Y.^2;//surface display clf;F=gcf();F.color_map=hotcolormap(64);subplot(121)grayplot(x,y,Z)xtitle('grayplot')subplot(122)Sgrayplot(x,y,Z)xtitle('Sgrayplot')

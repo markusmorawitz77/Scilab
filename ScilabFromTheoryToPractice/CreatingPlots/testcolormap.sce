@@ -1,0 +1,16 @@
+F=scf(1);clf;
+plot3d()
+F.color_map=hotcolormap(64);
+xtitle('hotcolormap')
+F=scf(2);clf;
+plot3d()
+F.color_map=jetcolormap(64);
+xtitle('jetcolormap')
+F=scf(3);clf;
+plot3d()
+F.color_map=oceancolormap(64);
+xtitle('oceancolormap')
+F=scf(4);clf;
+plot3d()
+F.color_map=graycolormap(64);
+xtitle('graytcolormap')

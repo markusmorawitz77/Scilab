@@ -1,0 +1,11 @@
+exec('scilab-base-program-num2pos.sce',-1) //to delete 
+// entry number 1 -> position (1,1)
+[i,j]=num2pos(1) 
+// entry number 9 -> position (9,1)
+[i,j]=num2pos(9) 
+// entry  number 18 -> position (9,2)
+[i,j]=num2pos(18) 
+// entry number 73 -> position (1,9)
+[i,j]=num2pos(73)
+// entry number -> position (9,9)
+[i,j]=num2pos(81) 

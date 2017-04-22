@@ -1,0 +1,10 @@
+exec('scilab-base-program-jouer_sudoku.sce',-1)  //to delete 
+exec('scilab-base-program-solve_sudoku.sce',-1)  //to delete 
+exec('scilab-base-program-entrer_valeurs.sce',-1)  //to delete 
+exec('scilab-base-program-voir_possibilite.sce',-1)  //to delete 
+exec('scilab-base-program-teste_case.sce',-1)  //to delete
+exec('scilab-base-program-possibilite.sce',-1)  //to delete
+exec('scilab-base-program-voir_possibilite.sce',-1)  //to delete
+exec('scilab-base-program-pos2region.sce',-1)  //to delete 
+exec('scilab-base-program-region2pos.sce',-1)  //to delete 
+exec('scilab-base-program-num2pos.sce',-1)  //to delete 

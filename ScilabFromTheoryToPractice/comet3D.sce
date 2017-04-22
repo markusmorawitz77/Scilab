@@ -93,8 +93,8 @@ for k=1:5:N
    plot_sphere(0,0,0)                        // le soleil 
    plot_sphere(X(k,1),Y(k,1),Z(k,1))        // la planète
    plot_sphere(X(k,2),Y(k,2),Z(k,2))         // la comète
-   title('comet dynamics simulation :t=...
-   '+string(t(k))+'/'+string(T)+' years')     // le titre
+   title('comet dynamics simulation :t='...
+   +string(t(k))+'/'+string(T)+' years')     // le titre
    xinfo(string(t(k)))              // affichage du temps
    A=gca();  // redimensionnement de la fenêtre graphique
    A.axes_visible=["off" "off" "off"];
